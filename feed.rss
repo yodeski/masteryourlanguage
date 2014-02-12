@@ -6,7 +6,7 @@
     <description>My example channel</description>
     <item>
        <title>News for September the Second</title>
-       <link>http://example.com/2002/09/01</link>
+       <link><a href="http://example.com/2002/09/01"></a></link>
        <description>other things happened today</description>
     </item>
     <item>
