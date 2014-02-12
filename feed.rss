@@ -1,49 +1,18 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?> 
-<rss version="2.0">
-<!--<channel>
-<title>El nombre de nuestro feed</title>
-<link>Dirección web en la que se encuentre nuestro RSS</link>
-<description>Contenido que vas a ofrecer a los usuarios</description>
-<item>
-<title>Título del artículo</title>
-<link>Dirección Web a la que podemos ir para ampliar esta información</link> <description>Contenido de esta información</description>
-</item>
- </channel> -->
- 
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Feed</title> 
+  <link href="http://example.org/"/>
+  <updated>2003-12-13T18:30:02Z</updated>
+  <author> 
+    <name>John Doe</name>
+  </author> 
+  <id>urn:uuid:60a76c80-d399-11d9-b93C-0003939e0af6</id>
 
-
-<channel>
-<title>RSS guia facil</title>
-<link>http://m.cronista.com/rss.html</link>
-<description>Guia fácil y sencilla sobre el formato RSS</description>
-
-
-<item>
-<title>Para qué sirve el RSSl</title>
-<link>http://www.cronista.com/contenidos/2014/02/04/noticia_0116.html</link> 
-<description>Visita la Guía Fácil del RSS y conoce para qué sirve el    formato RSShola</description>
-</item>
-</channel>
-
-
-<!--
-<channel> 
-
-
-<title> RSS</title>
- <link>http://mipagina.com/RSS </link>
- <description>RSS sencillo</description> 
-
-<item> 
-
-
-<title>Definición de RSS</title>
- <link>http://mipagina.com/definicion_RSS.html</link>
- <description>La definición del RSS sencilla e intuitiva</description> 
-
-</item> 
-
-</channel>
- -->
-
-</rss>
+  <entry>
+    <title>Atom-Powered Robots Run Amok</title>
+    <link href="http://example.org/2003/12/13/atom03"/>
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <updated>2003-12-13T18:30:02Z</updated>
+    <summary>Some text.</summary>
+  </entry>
+</feed>
