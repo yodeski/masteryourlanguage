@@ -92,7 +92,7 @@ body
 {
     text-indent: -10000em;
     position: relative;
-    width: 271px;
+    width: auto;
  /* Adjust Width for Logo if needed */
     height: 93px;
  /* Adjust Height for Logo if needed */
@@ -350,8 +350,8 @@ body
 .footer-container h1{
 	text-indent: -10000em;
 	position: relative;
-	width: 142px; /* Adjust Width for Logo if needed */
-	height: 19px; /* Adjust Height for Logo if needed */
+	width: 250px; /* Adjust Width for Logo if needed */
+	height: 30px; /* Adjust Height for Logo if needed */
 	background: url(../img/logo_foot.png) no-repeat center 0; /* Change Logo */
 	background-size: 100%;
 	margin: 0 auto 40px;
