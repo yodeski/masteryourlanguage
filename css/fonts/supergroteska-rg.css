@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SuperGroteskARegular';
+    src: url('supergroteska-rg.eot');
+    src: url('supergroteska-rg.eot') format('embedded-opentype'),
+         url('supergroteska-rg.woff') format('woff'),
+         url('supergroteska-rg.ttf') format('truetype'),
+         url('supergroteska-rg.svg#SuperGroteskARegular') format('svg');
+}
